@@ -1,0 +1,8 @@
+white: #f0f0f0;
+red: #be3144;
+blue: #45567d;
+gray: #303841;
+
+
+font: https://fonts.google.com/specimen/Poppins
+[200,300,400,700]
