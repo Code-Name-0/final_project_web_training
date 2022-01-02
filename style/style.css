@@ -132,3 +132,49 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
+
+#Contact {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#Contact .contact-title {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#Contact .contact-title h2 {
+  font-size: 4em;
+  margin: 0;
+}
+
+#Contact .contact-title p {
+  margin: 0;
+}
+
+#Contact .sociale {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#Contact .sociale a {
+  color: var(--white);
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  font-size: 1.5em;
+  margin: 0 30px;
+  transition-property: transform, color;
+  transition-duration: 0.5s;
+}
+
+#Contact .sociale a:hover {
+  transform: scale(1.2);
+  color: var(--blue);
+}
